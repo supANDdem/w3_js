@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    
+    <h1>My First Web Page</h1>
+    <p>My First Paragraph</p>
+    <p id="demo"></p>
+  </body>
+
+  <p>using .innerHTML to display output.</p>
+  <script>
+    document.getElementById("demo").innerHTML = 5 + 6;
+  </script>
+
+  <p>using document.write() to display output</p>
+  <script>
+    document.write(5 + 7);
+  </script>
+
+  <p>using document.write() after an html document is loaded, it will delete all existing html.</p>
+  <button
+    onclick="document.write(5 + 8)"
+  >Delete all html</button>
+
+  <p>using window.alert() to display data</p>
+  <script>
+    window.alert(5 + 9);
+  </script>
+
+  <p>using console.log() to display data</p>
+  <script>
+    console.log(5 + 10);
+  </script>
+
+  <p>print the content using window.print()</p>
+  <button 
+    onclick="window.print()"  
+  >Print this page</button>
+
+
+
+
+
+
+
+
+
+</html>
